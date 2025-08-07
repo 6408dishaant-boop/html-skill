@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Registration Form</title>
+  <style>
+    body {
+      background-color: black;
+      color: cyan;
+      text-align: center;
+      font-family: Arial;
+    }
+
+    form {
+      background-color: #1e1e1e;
+      padding: 20px;
+      display: inline-block;
+      border: 2px solid cyan;
+      margin-top: 30px;
+    }
+
+    input, select, label {
+      display: block;
+      margin: 10px auto;
+    }
+
+    button {
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Registration Form</h1>
+
+  <form action="exp3_success.html" method="get">
+    <label>Full Name:</label>
+    <input type="text" name="fullname" required>
+
+    <label>Email:</label>
+    <input type="email" name="email" required>
+
+    <label>Password:</label>
+    <input type="password" name="password" required>
+
+    <label>Gender:</label>
+    <input type="radio" name="gender" value="male" required> Male
+    <input type="radio" name="gender" value="female"> Female
+
+    <label>Date of Birth:</label>
+    <input type="date" name="dob" required>
+
+    <label>College:</label>
+    <input type="text" name="college" required>
+
+    <button type="submit">Submit</button>
+  </form>
+
+</body>
+</html>
