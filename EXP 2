@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dishaant Kumar - Portfolio</title>
+  <style>
+    body {
+      background-color: #f2f2f2;
+      color: #1c1c1c;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    header {
+      padding-top: 20px;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    section {
+      margin-top: 30px;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Dishaant Kumar</h1>
+    <p>Student | Developer</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a> |
+    <a href="#projects">Projects</a> |
+    <a href="#resume">Resume</a> |
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am a student at MIT WPU, passionately learning multiple coding languages like C, C++, HTML, and CSS.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <article>
+        <h3>Ideathon Project</h3>
+        <p>I was the captain of our Ideathon team that secured 5th place out of 120 teams in HACK MIT 24.</p>
+      </article>
+
+      <article>
+        <h3>My Portfolio Website</h3>
+        <p>Created using basic HTML and CSS.</p>
+      </article>
+    </section>
+
+    <section id="resume">
+      <h2>Resume / Experience</h2>
+      <p>Currently gaining experience through small practice projects and assignments.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: dishaantkumar11@gmail.com</p>
+      <p>Phone: 7499368815</p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Dishaant Kumar</p>
+  </footer>
+
+</body>
+</html>
