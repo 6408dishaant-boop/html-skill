@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Success</title>
+  <style>
+    body {
+      background-color: black;
+      color: lime;
+      text-align: center;
+      font-family: Arial;
+      margin-top: 100px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Application submitted successfully!</h1>
+
+</body>
+</html>
